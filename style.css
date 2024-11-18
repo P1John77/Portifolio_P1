@@ -21,6 +21,9 @@ header{
     padding: 40px 4%;
 
 }
+.IMAGEM-LOGO {
+    height: 64px;
+}
 
 header > .interface{
     display: flex;
