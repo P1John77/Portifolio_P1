@@ -1,4 +1,4 @@
-
+/* ESTILO GERAL */
 *{
     margin: 0;
     padding: 0;
@@ -23,11 +23,26 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color:#fff;
+    background-color:chocolate;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: chocolate;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px floralwhite;
+    transform: scale(1.05);
 }
 
 /* ESTILO DO CABEÇALHO */
@@ -65,13 +80,6 @@ header nav ul li{
     padding: 0 40px;
 }
 
-
-.btn--contato button:hover{
-    box-shadow: 0px 0px 8px floralwhite;
-    transform: scale(1.05);
-}
-
-
 /*ESTILO DO TOPO DO SITE  */
 section.topo-do-site{
     padding: 40px 4%;
@@ -90,7 +98,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site h1 span{
-    color:#fff
+    color:chocolate
 }
 
 .topo-do-site.topo-do-site p{
@@ -110,4 +118,85 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff78;
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: chocolate;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 26px;
+    margin: 15px 0;
+}
+ 
+
+/* ESTILO DO SOBRE */
+section.sobre img {
+    width: 280px; 
+    height: auto; 
+    border-radius: 15px; 
+}
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt-sobre{
+    color:#fff
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom:30px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: chocolate;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: chocolate;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
 }
