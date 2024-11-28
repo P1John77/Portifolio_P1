@@ -426,7 +426,6 @@ section.sobre {
   /* RODAPÉ */
 
   footer .flex{
-    flex-direction: column;
     gap: 30px;
   }
 
