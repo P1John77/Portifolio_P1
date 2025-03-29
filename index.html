@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <!-- FIM GOOGLE FONTS -->
     <!-- BOOTSTRAP ICONS -->
     <link
       rel="stylesheet"
@@ -18,10 +17,10 @@
     />
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="style.css" class="css" />
-    <title>PORTIFÓLIO</title>
-
-    <script src="menu.js" defer></script>
+    <title>StherCloset</title>
+  
   </head>
+
   <body>
     <header>
       <div class="interface">
@@ -38,10 +37,10 @@
 
         <nav class="menu-desktop">
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Especialidade</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#especialidade">Especialidade</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
           </ul>
         </nav>
 
@@ -52,22 +51,23 @@
         </div>
         <!--btn-contato-->
 
-      <div class="btn-abrir-menu" id="btn-abrir-menu">
-        <i class="bi bi-list"></i>
-      </div>
+        <!-- Menu hambúrguer -->
+        <div class="btn-abrir-menu" id="btn-abrir-menu">
+          <i class="bi bi-list"></i>
+        </div>
 
         <div class="menu-mobile" id="menu-mobile">
-          <div class="btn-fechar">
+          <div class="btn-fechar" id="btn-fechar">
             <i class="bi bi-x-lg"></i>
           </div>
 
           <nav>
             <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Especialidades</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Projetos</a></li>
-              <li><a href="#">contato</a></li>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#especialidade">Especialidade</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#">Contato</a></li>
             </ul>
           </nav>
         </div>
@@ -78,24 +78,15 @@
     </header>
 
     <main>
-      <section class="topo-do-site">
+      <section class="topo-do-site" id="inicio">
         <div class="interface">
           <div class="flex">
             <div class="txt-topo-site">
               <h1>BEM-VINDOS! <span>.</span></h1>
               <p>
-                Bem-vindo(a) ao StherCloset
-
-Olá! Aqui no StherCloset, acreditamos que a moda vai além das roupas – é sobre expressão, confiança e personalidade. Cada peça em nosso acervo foi selecionada para ajudar você a criar looks únicos e cheios de estilo.
-
-Explore nossas coleções e descubra combinações perfeitas para o seu dia a dia, momentos especiais ou aquela ocasião que merece um toque extra de elegância.
-
-Obrigado por visitar o StherCloset. Sua jornada fashion começa aqui!
-
-Com carinho,
-StherCloset
-
-#StherCloset #ModaQueInspira
+                Bem-vindo(a) ao StherCloset Olá! Aqui no StherCloset, acreditamos que a moda vai além das roupas – é sobre expressão, confiança e personalidade. Cada peça em nosso acervo foi selecionada para ajudar você a criar looks únicos e cheios de estilo. Explore nossas coleções e descubra combinações perfeitas para o seu dia a dia, momentos especiais ou aquela ocasião que merece um toque extra de elegância. Obrigado por visitar o StherCloset. Sua jornada fashion começa aqui! Com carinho, StherCloset.
+                <br><br>
+                #StherCloset #ModaQueInspira
               </p>
 
               <div class="btn--contato">
@@ -117,7 +108,7 @@ StherCloset
       </section>
       <!--topo-do-site-->
 
-      <section class="especialidades">
+      <section class="especialidades" id="especialidade">
         <div class="interface">
           <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
           <div class="flex">
@@ -148,7 +139,7 @@ StherCloset
       </section>
       <!--especialidades-->
 
-      <section class="sobre">
+      <section class="sobre" id="sobre">
         <div class="interface">
           <div class="flex">
             <div class="img-sobre">
@@ -160,22 +151,8 @@ StherCloset
               <h2>MUITO PRAZER,<span>ME CHAMO STHEFANNIA.</span></h2>
               <p>
                 Meu nome é Sthefannia, e criei este espaço para quem busca looks que combinem elegância e autenticidade. Seja para o dia a dia, ocasiões especiais ou aquele toque único que só uma boa escolha de roupa pode proporcionar, você encontrará opções cuidadosamente selecionadas.
-
-Na StherCloset, valorizamos:
-
-Peças atemporais que transcendem tendências passageiras
-
-Tecidos de qualidade para conforto e durabilidade
-
-Um atendimento próximo, porque acredito que a moda deve ser acessível e personalizada
-
-Sinta-se à vontade para explorar e descobrir peças que se encaixem no seu estilo. Se precisar de ajuda ou sugestões, estou à disposição para tornar sua experiência ainda melhor.
-
-Obrigada por escolher a StherCloset. Sua jornada fashion começa aqui.
-
-Atenciosamente,
-Sthefannia
-StherCloset - Moda com propósito
+                <br><br>
+                Sinta-se à vontade para explorar e descobrir peças que se encaixem no seu estilo. Se precisar de ajuda ou sugestões, estou à disposição para tornar sua experiência ainda melhor.
               </p>
               <div class="btn-social">
                 <a href="https://www.instagram.com/_sthercloset/" target="_blank"
@@ -192,7 +169,7 @@ StherCloset - Moda com propósito
       </section>
       <!--sobre-->
 
-      <section class="portfolio">
+      <section class="portfolio" id="projetos">
         <div class="interface">
           <h2 class="titulo">NOSSO <span>MOOD.</span></h2>
           <div class="flex">
@@ -224,17 +201,15 @@ StherCloset - Moda com propósito
       <section class="formulário">
         <div class="interface">
           <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-
-
-      <form action="enviar.php" method="POST">
-      <input type="text" name="nome" placeholder="Seu nome completo:" required>
-      <input type="email" name="email" placeholder="Seu email:" required>
-      <input type="text" name="celular" placeholder="Seu celular:">
-      <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
-      <div class="btn-enviar">
-      <input type="submit" value="ENVIAR">
-  </div>
-</form>
+      
+          <!-- Formulário de contato -->
+          <form id="contact-form">
+            <input type="text" name="nome" placeholder="Seu nome completo:" required />
+            <input type="email" name="email" placeholder="Seu email:" required />
+            <input type="text" name="celular" placeholder="Seu celular:" />
+            <textarea name="mensagem" placeholder="Sua mensagem:" required></textarea>
+            <button type="submit">Enviar mensagem</button>
+          </form>
         </div>
         <!--interface-->
       </section>
@@ -243,35 +218,12 @@ StherCloset - Moda com propósito
 
     <footer>
       <div class="interface">
-        <div class="line-footer">
-          <div class="flex">
-            <div class="logo-footer">
-              <img
-                src="Images/imagem-logo.png"
-                alt="logotipo portifolio john"
-              />
-            </div>
-            <!--logo-footer-->
-            <div class="btn-social">
-              <a href="https://www.instagram.com/_sthercloset/" target="_blank"
-                ><button><i class="bi bi-instagram"></i></button
-              ></a>
-            </div>
-            <!--btn-social-->
-          </div>
-          <!--flex-->
-        </div>
-        <!--line-footer-->
-
-        <div class="line-footer borda">
-          <p>
-            <i class="bi bi-envelope-fill"></i>
-            <a href="mailto:Sthefanialima2025@icloud.com">Sthefanialima2025@icloud.com</a>
-          </p>
-        </div>
-        <!--line-footer-->
+        <p>STHERCLOSET © Todos os direitos reservados.</p>
       </div>
       <!--interface-->
     </footer>
+
+    <!-- Incluindo o script JS -->
+    <script src="menu.js"></script>
   </body>
 </html>

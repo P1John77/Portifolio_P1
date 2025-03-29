@@ -1,16 +1,22 @@
+let btnMenu = document.getElementById('btn-abrir-menu');
+let menu = document.getElementById('menu-mobile');
+let overlay = document.getElementById('overlaymenu2');
 
-let btnMenu = document.getElementById('btn-abrir-menu')
-let menu = document.getElementById('menu-mobile')
-let overlay =document.getElementById( 'overlaymenu2')
+// Abertura do menu
+btnMenu.addEventListener('click', () => {
+    menu.classList.add('abrir-menu');
+    overlay.style.display = 'block'; 
+});
 
-btnMenu.addEventListener('click', ()=>{
-    menu.classList.add('abrir-menu')
-})
+// Fechamento do menu
+menu.addEventListener('click', () => {
+    menu.classList.remove('abrir-menu');
+    overlay.style.display = 'none'; 
+});
 
-menu.addEventListener('click', ()=>{
-    menu.classList.remove('abrir-menu')
-})
+// Fechar o menu ao clicar na sobreposição
+overlay.addEventListener('click', () => {
+    menu.classList.remove('abrir-menu');
+    overlay.style.display = 'none'; 
+});
 
-overlay.addEventListener('click', ()=>{
-    menu.classList.remove('abrir-menu')
-})
